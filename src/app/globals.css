@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gray-300 text-gray-900;
+  }
+}
+
 .wrapper {
-  @apply min-h-screen w-full flex items-center justify-center bg-gray-300 py-4;
+  @apply min-h-screen w-full flex items-center justify-center py-4;
 }
 
 .container {
@@ -11,7 +17,7 @@
 }
 
 .option {
-  @apply text-black bg-white border shadow-sm rounded-md text-xl py-4 px-2 mb-3 hover:bg-gray-100 disabled:cursor-default;
+  @apply bg-white border shadow-sm rounded-md text-xl py-4 px-2 mb-3 hover:bg-gray-100 disabled:cursor-default;
 }
 
 .option.correct {

@@ -17,7 +17,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={open_sans.className}>
-        <AppProvider>{children}</AppProvider>
+        <AppProvider>
+          <main className="wrapper">{children}</main>
+        </AppProvider>
       </body>
     </html>
   );

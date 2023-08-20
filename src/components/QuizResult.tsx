@@ -15,8 +15,8 @@ export function QuizResult() {
   }
 
   return (
-    <div className="bg-white rounded-md shadow-md">
-      <div className="flex flex-col justify-center items-center gap-6 h-[50vh]">
+    <div className="bg-white rounded-md shadow-md p-16">
+      <div className="flex flex-col justify-center items-center gap-6">
         <div className="text-center space-y-2">
           <h2 className="md:text-3xl text-2xl font-bold">
             {result > 0.5 ? "Parabéns" : "Boa sorte na próxima vez."}

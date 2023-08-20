@@ -24,8 +24,8 @@ export default async function Questions({ searchParams }: Props) {
   }
 
   return (
-    <main className="min-h-screen py-10 bg-gray-300">
+    <section className="container max-w-4xl">
       <QuizQuestion data={data} />
-    </main>
+    </section>
   );
 }

@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Quiz
 
-## Getting Started
+![screenshot](https://raw.githubusercontent.com/shinditoyama/next-quiz/main/public/assets/quiz.gif)
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Uma aplicação Quiz App feito com Next 13 e TailwindCSS, juntamente com Trivia API para banco de dados das perguntas.
+
+Se você deseja experimentar o sistema, confira a demonstração anexado no link abaixo:
+
+**live demo: [https://next-quiz-rho.vercel.app/](https://next-quiz-rho.vercel.app/)**
+
+## Features
+
+- [x] Na tela inicial, o usuário poderá escolher a categoria, dificuldade e a quantidades das perguntas.
+- [x] Os dados do questionário são obtidos através da busca pela Trivia API.
+
+## Tecnologias
+
+- [React](https://react.dev/)
+- [Next](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Instalação
+
+Primeiro clone este repositório na sua máquina local.
+
+```
+$ git clone https://github.com/shinditoyama/next-quiz.git
+$ cd next-quiz
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Instale as dependências. Verifique se você já tem o nodejs e o npm instalado na sua máquina.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ npm install # or yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Feito isso, execute o projeto.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+$ npm start # or yarn start
+```

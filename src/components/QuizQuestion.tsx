@@ -63,7 +63,7 @@ export function QuizQuestion({ data }: { data: IQuiz[] }) {
   };
 
   return (
-    <article className="flex flex-col justify-start m-auto max-w-4xl p-8 rounded-md shadow-md bg-white">
+    <article className="flex flex-col justify-start p-8 rounded-md shadow-md bg-white">
       <div className="flex flex-row justify-between">
         <h2 className="text-xl font-semibold">{`Question ${currentQuestionIndex} of ${questionsCount}`}</h2>
         <h2 className="text-xl font-semibold">Score: {score}</h2>
